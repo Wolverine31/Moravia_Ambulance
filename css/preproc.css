@@ -103,7 +103,7 @@ header .wrapper .header_info span {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0 120px;
+  padding: 0 120px 100px;
 }
 .actuality .wrapper .about_cover .up_part, .actuality .wrapper .about_cover .mid_part, .actuality .wrapper .about_cover .lower_part {
   display: flex;
