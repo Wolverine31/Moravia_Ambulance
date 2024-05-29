@@ -63,4 +63,108 @@ header .wrapper .header_info span {
   font-size: 24px;
   font-weight: 400;
   color: #fff;
+}
+
+.actuality .wrapper {
+  padding: 0px 40px;
+}
+.actuality .wrapper h2, .actuality .wrapper h3, .actuality .wrapper h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.actuality .wrapper h2 {
+  font-size: 40px;
+  color: #4a779d;
+  padding: 52px 0px 40px 0px;
+}
+.actuality .wrapper h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.actuality .wrapper h3 span {
+  color: #4a779d;
+}
+.actuality .wrapper p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.actuality .wrapper .content {
+  max-width: 600px;
+  text-align: justify;
+  display: block;
+  margin: auto;
+  padding-bottom: 12px;
+}
+.actuality .wrapper .content:last-of-type {
+  margin-bottom: 60px;
+}
+.actuality .wrapper .about_cover {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 120px;
+}
+.actuality .wrapper .about_cover .up_part, .actuality .wrapper .about_cover .mid_part, .actuality .wrapper .about_cover .lower_part {
+  display: flex;
+  justify-content: space-between;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content, .actuality .wrapper .about_cover .up_part .mid_part_content, .actuality .wrapper .about_cover .up_part .lower_part_content, .actuality .wrapper .about_cover .mid_part .up_part_content, .actuality .wrapper .about_cover .mid_part .mid_part_content, .actuality .wrapper .about_cover .mid_part .lower_part_content, .actuality .wrapper .about_cover .lower_part .up_part_content, .actuality .wrapper .about_cover .lower_part .mid_part_content, .actuality .wrapper .about_cover .lower_part .lower_part_content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div, .actuality .wrapper .about_cover .up_part .mid_part_content div, .actuality .wrapper .about_cover .up_part .lower_part_content div, .actuality .wrapper .about_cover .mid_part .up_part_content div, .actuality .wrapper .about_cover .mid_part .mid_part_content div, .actuality .wrapper .about_cover .mid_part .lower_part_content div, .actuality .wrapper .about_cover .lower_part .up_part_content div, .actuality .wrapper .about_cover .lower_part .mid_part_content div, .actuality .wrapper .about_cover .lower_part .lower_part_content div {
+  display: flex;
+  flex-direction: column;
+  padding: 120px;
+  background-color: rgba(240, 248, 255, 0.5019607843);
+  border-radius: 12px;
+  border: 1px solid rgba(74, 119, 157, 0.1450980392);
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div a, .actuality .wrapper .about_cover .up_part .mid_part_content div a, .actuality .wrapper .about_cover .up_part .lower_part_content div a, .actuality .wrapper .about_cover .mid_part .up_part_content div a, .actuality .wrapper .about_cover .mid_part .mid_part_content div a, .actuality .wrapper .about_cover .mid_part .lower_part_content div a, .actuality .wrapper .about_cover .lower_part .up_part_content div a, .actuality .wrapper .about_cover .lower_part .mid_part_content div a, .actuality .wrapper .about_cover .lower_part .lower_part_content div a {
+  font-size: 48px;
+  color: #fff;
+  background-color: #1a3489;
+  padding: 12px 44px;
+  border-radius: 12px;
+  text-align: center;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div a:hover, .actuality .wrapper .about_cover .up_part .mid_part_content div a:hover, .actuality .wrapper .about_cover .up_part .lower_part_content div a:hover, .actuality .wrapper .about_cover .mid_part .up_part_content div a:hover, .actuality .wrapper .about_cover .mid_part .mid_part_content div a:hover, .actuality .wrapper .about_cover .mid_part .lower_part_content div a:hover, .actuality .wrapper .about_cover .lower_part .up_part_content div a:hover, .actuality .wrapper .about_cover .lower_part .mid_part_content div a:hover, .actuality .wrapper .about_cover .lower_part .lower_part_content div a:hover {
+  background-color: #4a779d;
+  color: #212121;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div span, .actuality .wrapper .about_cover .up_part .mid_part_content div span, .actuality .wrapper .about_cover .up_part .lower_part_content div span, .actuality .wrapper .about_cover .mid_part .up_part_content div span, .actuality .wrapper .about_cover .mid_part .mid_part_content div span, .actuality .wrapper .about_cover .mid_part .lower_part_content div span, .actuality .wrapper .about_cover .lower_part .up_part_content div span, .actuality .wrapper .about_cover .lower_part .mid_part_content div span, .actuality .wrapper .about_cover .lower_part .lower_part_content div span {
+  font-weight: 500;
+  padding-top: 32px;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div span:last-of-type, .actuality .wrapper .about_cover .up_part .mid_part_content div span:last-of-type, .actuality .wrapper .about_cover .up_part .lower_part_content div span:last-of-type, .actuality .wrapper .about_cover .mid_part .up_part_content div span:last-of-type, .actuality .wrapper .about_cover .mid_part .mid_part_content div span:last-of-type, .actuality .wrapper .about_cover .mid_part .lower_part_content div span:last-of-type, .actuality .wrapper .about_cover .lower_part .up_part_content div span:last-of-type, .actuality .wrapper .about_cover .lower_part .mid_part_content div span:last-of-type, .actuality .wrapper .about_cover .lower_part .lower_part_content div span:last-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div span a, .actuality .wrapper .about_cover .up_part .mid_part_content div span a, .actuality .wrapper .about_cover .up_part .lower_part_content div span a, .actuality .wrapper .about_cover .mid_part .up_part_content div span a, .actuality .wrapper .about_cover .mid_part .mid_part_content div span a, .actuality .wrapper .about_cover .mid_part .lower_part_content div span a, .actuality .wrapper .about_cover .lower_part .up_part_content div span a, .actuality .wrapper .about_cover .lower_part .mid_part_content div span a, .actuality .wrapper .about_cover .lower_part .lower_part_content div span a {
+  background-color: #4a779d;
+  padding: 4px 8px;
+  font-size: 12px;
+  min-width: 80px;
+  align-self: flex-end;
+  box-shadow: 0px 0px 4px #40e0d0;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div span.download, .actuality .wrapper .about_cover .up_part .mid_part_content div span.download, .actuality .wrapper .about_cover .up_part .lower_part_content div span.download, .actuality .wrapper .about_cover .mid_part .up_part_content div span.download, .actuality .wrapper .about_cover .mid_part .mid_part_content div span.download, .actuality .wrapper .about_cover .mid_part .lower_part_content div span.download, .actuality .wrapper .about_cover .lower_part .up_part_content div span.download, .actuality .wrapper .about_cover .lower_part .mid_part_content div span.download, .actuality .wrapper .about_cover .lower_part .lower_part_content div span.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div span.download::before, .actuality .wrapper .about_cover .up_part .mid_part_content div span.download::before, .actuality .wrapper .about_cover .up_part .lower_part_content div span.download::before, .actuality .wrapper .about_cover .mid_part .up_part_content div span.download::before, .actuality .wrapper .about_cover .mid_part .mid_part_content div span.download::before, .actuality .wrapper .about_cover .mid_part .lower_part_content div span.download::before, .actuality .wrapper .about_cover .lower_part .up_part_content div span.download::before, .actuality .wrapper .about_cover .lower_part .mid_part_content div span.download::before, .actuality .wrapper .about_cover .lower_part .lower_part_content div span.download::before {
+  content: url(../img/svg/pdf_file_icon.svg);
+  display: block;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content div span.download a, .actuality .wrapper .about_cover .up_part .mid_part_content div span.download a, .actuality .wrapper .about_cover .up_part .lower_part_content div span.download a, .actuality .wrapper .about_cover .mid_part .up_part_content div span.download a, .actuality .wrapper .about_cover .mid_part .mid_part_content div span.download a, .actuality .wrapper .about_cover .mid_part .lower_part_content div span.download a, .actuality .wrapper .about_cover .lower_part .up_part_content div span.download a, .actuality .wrapper .about_cover .lower_part .mid_part_content div span.download a, .actuality .wrapper .about_cover .lower_part .lower_part_content div span.download a {
+  align-self: center;
+}
+.actuality .wrapper .about_cover .up_part .up_part_content img, .actuality .wrapper .about_cover .up_part .mid_part_content img, .actuality .wrapper .about_cover .up_part .lower_part_content img, .actuality .wrapper .about_cover .mid_part .up_part_content img, .actuality .wrapper .about_cover .mid_part .mid_part_content img, .actuality .wrapper .about_cover .mid_part .lower_part_content img, .actuality .wrapper .about_cover .lower_part .up_part_content img, .actuality .wrapper .about_cover .lower_part .mid_part_content img, .actuality .wrapper .about_cover .lower_part .lower_part_content img {
+  width: auto;
+  max-height: 300px;
 }/*# sourceMappingURL=preproc.css.map */

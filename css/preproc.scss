@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+// Used vars
+$deep_blue: #1a3489;
+$gray_blue: #4a779d;
+$gray_blue_50: #4a779d25;
+
 body {
     font-family: Poppins;
 }
@@ -73,6 +78,112 @@ header {
                 font-weight: 400;
                 color: #fff;
             }
+        }
+    }
+}
+.actuality {
+    .wrapper {
+        padding: 0px 40px;
+        h2, h3, h4 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        h2 {
+            font-size: 40px;
+            color: $gray_blue;
+            padding: 52px 0px 40px 0px;
+        }
+        h3 {
+            font-size: 28px;
+            font-weight: 400;
+            margin-bottom: 40px;
+            span {
+                color: $gray_blue;
+            }
+        }
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content {
+            max-width: 600px;
+            text-align: justify;
+            display: block;
+            margin: auto;
+            padding-bottom: 12px;
+            &:last-of-type {
+                margin-bottom: 60px;
+            }
+        }
+        .about_cover {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 120px;
+            .up_part, .mid_part, .lower_part {
+                display: flex;
+                justify-content: space-between;
+                .up_part_content, .mid_part_content, .lower_part_content {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 120px;
+                        background-color: #f0f8ff80;
+                        border-radius: 12px;
+                        border: 1px solid $gray_blue_50;
+                        a {
+                            font-size: 48px;
+                            color: #fff;
+                            background-color: $deep_blue;
+                            padding: 12px 44px;
+                            border-radius: 12px;
+                            text-align: center;
+                            &:hover {
+                                background-color: $gray_blue;
+                                color: #212121;
+                            }
+                        }
+                        span {
+                            font-weight: 500;
+                            padding-top: 32px;
+                            &:last-of-type {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 12px;
+                            }
+                            a {
+                                background-color: $gray_blue;
+                                padding: 4px 8px;
+                                font-size: 12px;
+                                min-width: 80px;
+                                align-self: flex-end;
+                                box-shadow: 0px 0px 4px #40e0d0;
+                            }
+                        }
+                        span.download {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            &::before {
+                                content: url(../img/svg/pdf_file_icon.svg);
+                                display: block;
+                            }
+                            a {
+                                align-self: center;
+                            }
+                        }
+                    }
+                    img {
+                        width: auto;
+                        max-height: 300px;
+                    }
+                }
+            }
+            
         }
     }
 }
