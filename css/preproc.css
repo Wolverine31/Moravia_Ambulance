@@ -77,6 +77,11 @@ header .wrapper .header_info span {
   color: #fff;
 }
 
+header.pages_bg {
+  background-image: url("../img/jpg/Mohelnice_View_bg_pages.jpg");
+  height: 80vh;
+}
+
 .actuality .wrapper {
   padding: 0px 40px;
 }
@@ -231,6 +236,73 @@ header .wrapper .header_info span {
   height: 100px;
   width: auto;
   margin: auto;
+}
+
+.team {
+  margin-bottom: 100px;
+}
+.team .wrapper .stuff {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.team .wrapper .stuff article {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0.7;
+}
+.team .wrapper .stuff article:hover {
+  opacity: 1;
+}
+.team .wrapper .stuff article img {
+  max-width: 200px;
+  border-radius: 12px;
+}
+.team .wrapper .stuff article .grade {
+  color: #1a3489;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 24px 0px;
+}
+.team .wrapper .stuff article .grade, .team .wrapper .stuff article .abt {
+  text-align: center;
+}
+
+.inner_affairs {
+  margin-bottom: 100px;
+}
+.inner_affairs .wrapper article {
+  display: flex;
+  padding: 0 100px;
+  position: relative;
+}
+.inner_affairs .wrapper article p {
+  padding: 20px 40px;
+  border-bottom: 1px solid rgba(74, 119, 157, 0.1450980392);
+  text-align: justify;
+}
+.inner_affairs .wrapper article img {
+  width: 180px;
+}
+.inner_affairs .wrapper article ul {
+  padding: 32px 40px;
+}
+.inner_affairs .wrapper article ul li {
+  list-style-type: decimal;
+  color: #4a779d;
+  font-weight: 500;
+}
+.inner_affairs .wrapper article ul li ul li {
+  list-style: upper-latin;
+  color: #212121;
+  font-weight: 300;
+  padding-bottom: 12px;
+}
+.inner_affairs .wrapper article ul li ul li ul li {
+  list-style: none;
 }
 
 footer {
