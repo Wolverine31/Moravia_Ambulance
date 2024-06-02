@@ -10,6 +10,7 @@ $gray_blue: #4a779d;
 $gray_blue_50: #4a779d25;
 //Different bg for pafes
 $header_bg_team: url('../img/jpg/Mohelnice_View_bg_pages.jpg');
+$header_bg_research: url('../img/jpg/Mohelnice_View_bg_pages_research.jpg');
 
 body {
     font-family: Poppins;
@@ -96,6 +97,10 @@ header {
 }
 header.pages_bg {
     background-image: $header_bg_team;
+    height: 80vh;
+}
+header.pages_bg_research {
+    background-image: $header_bg_research;
     height: 80vh;
 }
 .actuality {
@@ -341,6 +346,45 @@ header.pages_bg {
         }
     }
 }
+.research {
+    .wrapper {
+        padding: 0px 40px;
+        .research_block {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 996px;
+            margin: auto;
+            justify-content: space-between;
+            .res_card {
+                display: flex;
+                flex-direction: column;
+                max-width: 300px;
+                margin-bottom: 80px;
+                filter: grayscale(100%);
+                    transition: filter 0.5s;
+                    color: #21212170;
+                    &:hover {
+                        filter: grayscale(0%);
+                        color: #212121;
+                        transition: color 0.5s;
+                    }
+                img {
+                    min-height: 200px;
+                    border-radius: 12px;
+                }
+                span {
+                    font-weight: 600;
+                    padding: 24px 0 18px;
+                }
+                ul {
+                    li {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+}
 footer {
 //     // background: rgb(255,255,255);
 // background: linear-gradient(180deg, rgba(255,255,255,1) 8%, rgba(64,224,208,1) 39%, rgba(26,52,137,1) 100%);
@@ -388,11 +432,15 @@ footer {
                         list-style: none;
                         margin-bottom: 12px;
                         padding: 4px;
-                        &:hover {
-                            background-color: $gray_blue;
-                        }
+                        // &:hover {
+                        //     background-color: $gray_blue;
+                        // }
                         a {
                             color: #fff;
+                            &:hover {
+                                background-color: $gray_blue;
+                                border-radius: 4px;
+                            }
                         }
                     }
                 }

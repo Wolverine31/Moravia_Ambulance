@@ -82,6 +82,11 @@ header.pages_bg {
   height: 80vh;
 }
 
+header.pages_bg_research {
+  background-image: url("../img/jpg/Mohelnice_View_bg_pages_research.jpg");
+  height: 80vh;
+}
+
 .actuality .wrapper {
   padding: 0px 40px;
 }
@@ -305,6 +310,42 @@ header.pages_bg {
   list-style: none;
 }
 
+.research .wrapper {
+  padding: 0px 40px;
+}
+.research .wrapper .research_block {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 996px;
+  margin: auto;
+  justify-content: space-between;
+}
+.research .wrapper .research_block .res_card {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-bottom: 80px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+  color: rgba(33, 33, 33, 0.4392156863);
+}
+.research .wrapper .research_block .res_card:hover {
+  filter: grayscale(0%);
+  color: #212121;
+  transition: color 0.5s;
+}
+.research .wrapper .research_block .res_card img {
+  min-height: 200px;
+  border-radius: 12px;
+}
+.research .wrapper .research_block .res_card span {
+  font-weight: 600;
+  padding: 24px 0 18px;
+}
+.research .wrapper .research_block .res_card ul li {
+  list-style: none;
+}
+
 footer {
   background-color: #1a3489;
 }
@@ -350,11 +391,12 @@ footer .wrapper .desc article ul li {
   margin-bottom: 12px;
   padding: 4px;
 }
-footer .wrapper .desc article ul li:hover {
-  background-color: #4a779d;
-}
 footer .wrapper .desc article ul li a {
   color: #fff;
+}
+footer .wrapper .desc article ul li a:hover {
+  background-color: #4a779d;
+  border-radius: 4px;
 }
 footer .wrapper .map iframe {
   width: 300px;
